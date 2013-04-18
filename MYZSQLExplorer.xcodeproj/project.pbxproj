@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11D5BC817202D05002C6872 /* NSString+MMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A11D5BC717202D05002C6872 /* NSString+MMExtension.m */; };
+		A1271219171FD14C00FD88D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A1271218171FD14C00FD88D2 /* README.md */; };
+		A127121B171FD95400FD88D2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A127121A171FD95400FD88D2 /* LICENSE */; };
+		A12BCEC6171F2464005B114F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A12BCEC2171F2464005B114F /* Model.xcdatamodeld */; };
+		A12BCECD171F2493005B114F /* MYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCEC9171F2493005B114F /* MYZAppDelegate.m */; };
+		A12BCECE171F2493005B114F /* ActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCECB171F2493005B114F /* ActionController.m */; };
+		A12BCECF171F2493005B114F /* ActionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A12BCECC171F2493005B114F /* ActionController.xib */; };
+		A12BCED2171F3069005B114F /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCED1171F3069005B114F /* Department.m */; };
+		A12BCED5171F3076005B114F /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCED4171F3076005B114F /* Employee.m */; };
+		A12BCED7171F3156005B114F /* SQLEXplorerSample.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A12BCED6171F3156005B114F /* SQLEXplorerSample.sqlite */; };
+		A12BCEE4171F352E005B114F /* NSMutableArray+StackAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCEDB171F352E005B114F /* NSMutableArray+StackAdditions.m */; };
+		A12BCEE5171F352E005B114F /* UIView+FrameExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCEDD171F352E005B114F /* UIView+FrameExtensions.m */; };
+		A12BCEE6171F352E005B114F /* MYZManagedObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCEDF171F352E005B114F /* MYZManagedObjectController.m */; };
+		A12BCEE7171F352E005B114F /* MYZManagedStoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCEE1171F352E005B114F /* MYZManagedStoreController.m */; };
+		A12BCEE8171F352E005B114F /* MYZManagedStoreState.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BCEE3171F352E005B114F /* MYZManagedStoreState.m */; };
+		A180AACF171D458700B16461 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A180AACE171D458700B16461 /* UIKit.framework */; };
+		A180AAD1171D458700B16461 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A180AAD0171D458700B16461 /* Foundation.framework */; };
+		A180AAD3171D458700B16461 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A180AAD2171D458700B16461 /* CoreGraphics.framework */; };
+		A180AB3E171D498A00B16461 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A180AB35171D498900B16461 /* Default-568h@2x.png */; };
+		A180AB3F171D498A00B16461 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A180AB36171D498900B16461 /* Default.png */; };
+		A180AB40171D498A00B16461 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A180AB37171D498900B16461 /* Default@2x.png */; };
+		A180AB41171D498A00B16461 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A180AB39171D498900B16461 /* InfoPlist.strings */; };
+		A180AB42171D498A00B16461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A180AB3B171D498900B16461 /* main.m */; };
+		A180AB59171D8EFD00B16461 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A180AB58171D8EFD00B16461 /* CoreData.framework */; };
+		A180AB69171DA0A500B16461 /* appIcon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = A180AB68171DA0A500B16461 /* appIcon_57.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A11D5BC617202D05002C6872 /* NSString+MMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MMExtension.h"; path = "../NSString+MMExtension.h"; sourceTree = "<group>"; };
+		A11D5BC717202D05002C6872 /* NSString+MMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MMExtension.m"; path = "../NSString+MMExtension.m"; sourceTree = "<group>"; };
+		A1271218171FD14C00FD88D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A127121A171FD95400FD88D2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A12BCEC3171F2464005B114F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A12BCEC8171F2493005B114F /* MYZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYZAppDelegate.h; sourceTree = "<group>"; };
+		A12BCEC9171F2493005B114F /* MYZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYZAppDelegate.m; sourceTree = "<group>"; };
+		A12BCECA171F2493005B114F /* ActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionController.h; sourceTree = "<group>"; };
+		A12BCECB171F2493005B114F /* ActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionController.m; sourceTree = "<group>"; };
+		A12BCECC171F2493005B114F /* ActionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionController.xib; sourceTree = "<group>"; };
+		A12BCED0171F3069005B114F /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		A12BCED1171F3069005B114F /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		A12BCED3171F3076005B114F /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		A12BCED4171F3076005B114F /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		A12BCED6171F3156005B114F /* SQLEXplorerSample.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = SQLEXplorerSample.sqlite; sourceTree = "<group>"; };
+		A12BCEDA171F352E005B114F /* NSMutableArray+StackAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+StackAdditions.h"; sourceTree = "<group>"; };
+		A12BCEDB171F352E005B114F /* NSMutableArray+StackAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+StackAdditions.m"; sourceTree = "<group>"; };
+		A12BCEDC171F352E005B114F /* UIView+FrameExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtensions.h"; sourceTree = "<group>"; };
+		A12BCEDD171F352E005B114F /* UIView+FrameExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtensions.m"; sourceTree = "<group>"; };
+		A12BCEDE171F352E005B114F /* MYZManagedObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYZManagedObjectController.h; sourceTree = "<group>"; };
+		A12BCEDF171F352E005B114F /* MYZManagedObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYZManagedObjectController.m; sourceTree = "<group>"; };
+		A12BCEE0171F352E005B114F /* MYZManagedStoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYZManagedStoreController.h; sourceTree = "<group>"; };
+		A12BCEE1171F352E005B114F /* MYZManagedStoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYZManagedStoreController.m; sourceTree = "<group>"; };
+		A12BCEE2171F352E005B114F /* MYZManagedStoreState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYZManagedStoreState.h; sourceTree = "<group>"; };
+		A12BCEE3171F352E005B114F /* MYZManagedStoreState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYZManagedStoreState.m; sourceTree = "<group>"; };
+		A180AACB171D458700B16461 /* SQL Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQL Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A180AACE171D458700B16461 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A180AAD0171D458700B16461 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A180AAD2171D458700B16461 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A180AB35171D498900B16461 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A180AB36171D498900B16461 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A180AB37171D498900B16461 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A180AB3A171D498900B16461 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		A180AB3B171D498900B16461 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A180AB3C171D498900B16461 /* MYZSQLExplorer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MYZSQLExplorer-Info.plist"; sourceTree = "<group>"; };
+		A180AB3D171D498900B16461 /* MYZSQLExplorer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MYZSQLExplorer-Prefix.pch"; sourceTree = "<group>"; };
+		A180AB58171D8EFD00B16461 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A180AB68171DA0A500B16461 /* appIcon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon_57.png; path = ../../appIcon_57.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A180AAC8171D458700B16461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180AB59171D8EFD00B16461 /* CoreData.framework in Frameworks */,
+				A180AACF171D458700B16461 /* UIKit.framework in Frameworks */,
+				A180AAD1171D458700B16461 /* Foundation.framework in Frameworks */,
+				A180AAD3171D458700B16461 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12BCEBD171F2464005B114F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A12BCEC2171F2464005B114F /* Model.xcdatamodeld */,
+				A12BCED3171F3076005B114F /* Employee.h */,
+				A12BCED4171F3076005B114F /* Employee.m */,
+				A12BCED0171F3069005B114F /* Department.h */,
+				A12BCED1171F3069005B114F /* Department.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A12BCEC7171F2493005B114F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A11D5BC617202D05002C6872 /* NSString+MMExtension.h */,
+				A11D5BC717202D05002C6872 /* NSString+MMExtension.m */,
+				A12BCEC8171F2493005B114F /* MYZAppDelegate.h */,
+				A12BCEC9171F2493005B114F /* MYZAppDelegate.m */,
+				A12BCECA171F2493005B114F /* ActionController.h */,
+				A12BCECB171F2493005B114F /* ActionController.m */,
+				A12BCECC171F2493005B114F /* ActionController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A12BCED8171F352E005B114F /* MYZStoreExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				A12BCED9171F352E005B114F /* Categories */,
+				A12BCEDE171F352E005B114F /* MYZManagedObjectController.h */,
+				A12BCEDF171F352E005B114F /* MYZManagedObjectController.m */,
+				A12BCEE0171F352E005B114F /* MYZManagedStoreController.h */,
+				A12BCEE1171F352E005B114F /* MYZManagedStoreController.m */,
+				A12BCEE2171F352E005B114F /* MYZManagedStoreState.h */,
+				A12BCEE3171F352E005B114F /* MYZManagedStoreState.m */,
+			);
+			path = MYZStoreExplorer;
+			sourceTree = "<group>";
+		};
+		A12BCED9171F352E005B114F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A12BCEDA171F352E005B114F /* NSMutableArray+StackAdditions.h */,
+				A12BCEDB171F352E005B114F /* NSMutableArray+StackAdditions.m */,
+				A12BCEDC171F352E005B114F /* UIView+FrameExtensions.h */,
+				A12BCEDD171F352E005B114F /* UIView+FrameExtensions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A180AAC2171D458700B16461 = {
+			isa = PBXGroup;
+			children = (
+				A127121A171FD95400FD88D2 /* LICENSE */,
+				A1271218171FD14C00FD88D2 /* README.md */,
+				A12BCED8171F352E005B114F /* MYZStoreExplorer */,
+				A180AAEB171D469A00B16461 /* Sample */,
+				A180AACD171D458700B16461 /* Frameworks */,
+				A180AACC171D458700B16461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A180AACC171D458700B16461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A180AACB171D458700B16461 /* SQL Explorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A180AACD171D458700B16461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A180AB58171D8EFD00B16461 /* CoreData.framework */,
+				A180AACE171D458700B16461 /* UIKit.framework */,
+				A180AAD0171D458700B16461 /* Foundation.framework */,
+				A180AAD2171D458700B16461 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A180AAEB171D469A00B16461 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				A12BCEC7171F2493005B114F /* Classes */,
+				A12BCEBD171F2464005B114F /* Model */,
+				A180AB5D171D9C2500B16461 /* Resources */,
+				A180AB44171D498F00B16461 /* Supporting Files */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		A180AB38171D498900B16461 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A180AB39171D498900B16461 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		A180AB44171D498F00B16461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A180AB3C171D498900B16461 /* MYZSQLExplorer-Info.plist */,
+				A180AB3D171D498900B16461 /* MYZSQLExplorer-Prefix.pch */,
+				A180AB35171D498900B16461 /* Default-568h@2x.png */,
+				A180AB36171D498900B16461 /* Default.png */,
+				A180AB37171D498900B16461 /* Default@2x.png */,
+				A180AB38171D498900B16461 /* en.lproj */,
+				A180AB3B171D498900B16461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A180AB5D171D9C2500B16461 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A12BCED6171F3156005B114F /* SQLEXplorerSample.sqlite */,
+				A180AB68171DA0A500B16461 /* appIcon_57.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A180AACA171D458700B16461 /* SQL Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A180AAE8171D458700B16461 /* Build configuration list for PBXNativeTarget "SQL Explorer" */;
+			buildPhases = (
+				A180AAC7171D458700B16461 /* Sources */,
+				A180AAC8171D458700B16461 /* Frameworks */,
+				A180AAC9171D458700B16461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQL Explorer";
+			productName = MMStoreExplorer;
+			productReference = A180AACB171D458700B16461 /* SQL Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A180AAC3171D458700B16461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Meizy;
+			};
+			buildConfigurationList = A180AAC6171D458700B16461 /* Build configuration list for PBXProject "MYZSQLExplorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A180AAC2171D458700B16461;
+			productRefGroup = A180AACC171D458700B16461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A180AACA171D458700B16461 /* SQL Explorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A180AAC9171D458700B16461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180AB3E171D498A00B16461 /* Default-568h@2x.png in Resources */,
+				A180AB3F171D498A00B16461 /* Default.png in Resources */,
+				A180AB40171D498A00B16461 /* Default@2x.png in Resources */,
+				A180AB41171D498A00B16461 /* InfoPlist.strings in Resources */,
+				A180AB69171DA0A500B16461 /* appIcon_57.png in Resources */,
+				A12BCECF171F2493005B114F /* ActionController.xib in Resources */,
+				A12BCED7171F3156005B114F /* SQLEXplorerSample.sqlite in Resources */,
+				A1271219171FD14C00FD88D2 /* README.md in Resources */,
+				A127121B171FD95400FD88D2 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A180AAC7171D458700B16461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180AB42171D498A00B16461 /* main.m in Sources */,
+				A12BCEC6171F2464005B114F /* Model.xcdatamodeld in Sources */,
+				A12BCECD171F2493005B114F /* MYZAppDelegate.m in Sources */,
+				A12BCECE171F2493005B114F /* ActionController.m in Sources */,
+				A12BCED2171F3069005B114F /* Department.m in Sources */,
+				A12BCED5171F3076005B114F /* Employee.m in Sources */,
+				A12BCEE4171F352E005B114F /* NSMutableArray+StackAdditions.m in Sources */,
+				A12BCEE5171F352E005B114F /* UIView+FrameExtensions.m in Sources */,
+				A12BCEE6171F352E005B114F /* MYZManagedObjectController.m in Sources */,
+				A12BCEE7171F352E005B114F /* MYZManagedStoreController.m in Sources */,
+				A12BCEE8171F352E005B114F /* MYZManagedStoreState.m in Sources */,
+				A11D5BC817202D05002C6872 /* NSString+MMExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A180AB39171D498900B16461 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A180AB3A171D498900B16461 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A180AAE6171D458700B16461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A180AAE7171D458700B16461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A180AAE9171D458700B16461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample/MYZSQLExplorer-Prefix.pch";
+				INFOPLIST_FILE = "Sample/MYZSQLExplorer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A180AAEA171D458700B16461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample/MYZSQLExplorer-Prefix.pch";
+				INFOPLIST_FILE = "Sample/MYZSQLExplorer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A180AAC6171D458700B16461 /* Build configuration list for PBXProject "MYZSQLExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A180AAE6171D458700B16461 /* Debug */,
+				A180AAE7171D458700B16461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A180AAE8171D458700B16461 /* Build configuration list for PBXNativeTarget "SQL Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A180AAE9171D458700B16461 /* Debug */,
+				A180AAEA171D458700B16461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A12BCEC2171F2464005B114F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A12BCEC3171F2464005B114F /* Model.xcdatamodel */,
+			);
+			currentVersion = A12BCEC3171F2464005B114F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A180AAC3171D458700B16461 /* Project object */;
+}

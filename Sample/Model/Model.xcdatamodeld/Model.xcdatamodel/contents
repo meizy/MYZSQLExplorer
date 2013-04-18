@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Department" representedClassName="Department" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="childDepts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Department" inverseName="motherDept" inverseEntity="Department" syncable="YES"/>
+        <relationship name="employees" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="department" inverseEntity="Employee" syncable="YES"/>
+        <relationship name="motherDept" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="childDepts" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES">
+        <attribute name="dob" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isManager" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salary" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="department" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="employees" inverseEntity="Department" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Employee" positionX="160" positionY="192" width="128" height="120"/>
+    </elements>
+</model>
